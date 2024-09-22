@@ -1,0 +1,354 @@
+/* Auth.css */
+
+body {
+    background-color: #1a1a1a; /* Dark background */
+    color: #e0e0e0; /* Light text color for contrast */
+}
+
+.container {
+    max-width: 400px;
+    margin: auto;
+    padding: 40px;
+    border-radius: 8px;
+    background-color: #2e2e2e; /* Darker container */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+}
+
+.title {
+    text-align: center;
+    font-weight: bold;
+    font-size: 2rem;
+    color: #76ff03; /* Bright green for title */
+    margin-bottom: 20px;
+}
+
+.form-container {
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.input-field {
+    background-color: #424242; /* Dark input field */
+    border: 1px solid #76ff03; /* Green border */
+    color: #e0e0e0; /* Light text color */
+    margin: 1rem 0;
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+.button {
+    background-color: #76ff03; /* Bright green button */
+    border: none;
+    border-radius: 4px;
+    padding: 10px;
+    color: #1a1a1a; /* Dark text for contrast */
+    cursor: pointer;
+    width: 100%;
+    margin-top: 10px;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: #5e9e00; /* Darker green on hover */
+}
+
+.link {
+    text-align: center;
+    display: block;
+    margin-top: 1rem;
+    color: #76ff03; /* Green link color */
+}
+
+.link a {
+    color: #76ff03; /* Ensure link color is consistent */
+    text-decoration: none;
+}
+
+.link a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+/* Auth.css or a new CSS file */
+
+.dashboard-container {
+    background-color: #1a1a1a; /* Dark background */
+    min-height: 100vh;
+    color: #e0e0e0; /* Light text for contrast */
+    padding: 20px;
+}
+
+.navbar {
+    background-color: #333333; /* Dark grey navbar */
+    padding: 15px;
+    border-bottom: 2px solid #76ff03; /* Green border at the bottom */
+}
+
+.nav-list {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    justify-content: space-around;
+}
+
+.nav-list li {
+    font-size: 1.2rem;
+    color: #e0e0e0;
+}
+
+.nav-list a {
+    color: #76ff03; /* Green links */
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.nav-list a:hover {
+    color: #b2ff59; /* Lighter green on hover */
+}
+
+.user-name {
+    padding: 8px 12px;
+    border: 1px dashed #76ff03; /* Green dashed border for username */
+    color: #ff5252; /* Red text for the user's name */
+}
+/* dashboard*/
+.dashboard-title {
+    font-size: 2.5rem;
+    text-align: center;
+    color: #76ff03; /* Green title */
+    margin: 30px 0;
+}
+
+.welcome-text {
+    text-align: center;
+    font-size: 1.5rem;
+    color: #e0e0e0; /* Light text */
+}
+.logout-btn {
+    background-color: #76ff03; /* Bright green for logout */
+    color: #1a1a1a; /* Dark text */
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.logout-btn:hover {
+    background-color: #64dd17; /* Darker green on hover */
+    color: white; /* White text on hover */
+}
+/* create Employee*/
+/* Make the whole page black */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: #000; /* Black background for the whole page */
+}
+
+/* Container for the form */
+.create-employee-container {
+    max-width: 940px;
+    height: auto;
+    border: 4px solid #00a152; /* Green Border */
+    margin: auto;
+    margin-top: 40px;
+    padding: 30px;
+    background-color: #1a1a1a; /* Dark Grey for the form background */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+}
+
+/* Title Styling */
+.form-title {
+    text-align: center;
+    font-size: 24px;
+    color: #00e676; /* Green Text */
+    margin-bottom: 20px;
+}
+
+/* Form Styling */
+.form {
+    max-width: 300px;
+    margin: auto;
+    padding: 20px;
+    background-color: #333; /* Darker Grey for the form's inner container */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+/* Input Fields */
+.input-field {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 2px solid #00a152; /* Green Border */
+    border-radius: 5px;
+    background-color: #2e2e2e; /* Dark Background for Inputs */
+    color: white;
+}
+
+/* Labels */
+.label {
+    color: #00e676; /* Green Label Text */
+    margin-bottom: 5px;
+}
+
+/* Radio and Checkbox Groups */
+.radio-group, .checkbox-group {
+    margin-bottom: 15px;
+}
+
+.radio-label, .checkbox-label {
+    color: white;
+    margin-right: 10px;
+}
+
+/* File Input Styling */
+.input-file {
+    margin-top: 10px;
+    padding: 5px;
+    background-color: #2e2e2e; /* Dark Background */
+    color: white;
+}
+
+/* Submit Button */
+.submit-btn {
+    background-color: #00a152; /* Green Button */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.submit-btn:hover {
+    background-color: #00e676; /* Lighter Green on Hover */
+}
+
+/* employee list */
+/* Employee List Styling */
+.employee-list-container {
+    background-color: #000; /* Black background */
+    color: #fff; /* White text */
+    padding: 20px;
+  }
+  
+  .total-count {
+    color: #00ff00; /* Green text */
+  }
+  
+  .employee-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .employee-table th,
+  .employee-table td {
+    border: 1px solid #00ff00; /* Green borders */
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .employee-image {
+    width: 50px; /* Set an appropriate size */
+    height: auto;
+  }
+  
+  .action-buttons {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+   
+
+/*edit page  */
+/* auth.css */
+
+/* Container for the form */
+.edit-employee-container {
+    background-color: black;
+    color: white;
+    max-width: 940px;
+    height: 600px;
+    margin: 50px auto;
+    padding: 30px;
+    border: 4px solid #00FF00; /* Neon green border */
+    box-shadow: 0 0 15px rgba(0, 255, 0, 0.5);
+    border-radius: 10px;
+}
+
+/* Title */
+.edit-employee-container h1 {
+    color: #00FF00;
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+/* Form container */
+.edit-employee-form {
+    background-color: #1a1a1a; /* Dark grey */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 255, 0, 0.5);
+}
+
+/* Input fields */
+.edit-employee-form input[type="text"],
+.edit-employee-form input[type="email"],
+.edit-employee-form input[type="phone"],
+.edit-employee-form select,
+.edit-employee-form input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #333;
+    color: white;
+    border: 2px solid #00FF00;
+    border-radius: 5px;
+}
+
+.edit-employee-form input[type="radio"],
+.edit-employee-form input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+/* Labels */
+.edit-employee-form label {
+    font-size: 1.1rem;
+    color: #00FF00;
+}
+
+/* Button */
+.edit-employee-form button {
+    background-color: #00FF00;
+    color: black;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.2rem;
+    margin-top: 20px;
+}
+
+.edit-employee-form button:hover {
+    background-color: #00cc00;
+}
+
+/* Hover effects */
+.edit-employee-form input:hover,
+.edit-employee-form select:hover {
+    border-color: #00cc00;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .edit-employee-container {
+        max-width: 100%;
+    }
+}
